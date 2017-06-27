@@ -2,7 +2,7 @@
 # at https://learnpythonthehardway.org/book/ex3.html
 # This version has been changed to use floating point numbers
 
-print "I will now countmy chickens:"
+print "I will now count my chickens:"
 
 print "Hens", 25.0 + 30.0 / 6.0
 print "Roosters", 100.0 - 25.0 * 3.0 % 4.0
