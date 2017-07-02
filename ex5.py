@@ -13,7 +13,7 @@ hair = 'Brown'
 no_matter_what = "no matter what"
 
 print "Let's talk about %s." % name
-print "He's %d centimeters tall." % height_in_cm
+print "He's %u centimeters tall." % height_in_cm # Changed format symbol to %u
 print "He's %d kilograms heavy." % weight_in_kg
 print "Actually that's not too heavy."
 print "He's got %s eyes and %s hair." % (eyes, hair)
