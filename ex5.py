@@ -11,6 +11,7 @@ eyes = 'Blue'
 teeth = 'White'
 hair = 'Brown'
 no_matter_what = "no matter what"
+hexi = 8
 
 print "Let's talk about %s." % name
 print "He's %u centimeters tall." % height_in_cm # Changed format symbol to %u
@@ -28,3 +29,5 @@ print "If I add %d, %d, and %d I get get %d." % (
 # It's like saying "print this no matter what."
 
 print "Print this %r" % no_matter_what
+
+print "The number 8 in hexidecimal is %X", % hexi
