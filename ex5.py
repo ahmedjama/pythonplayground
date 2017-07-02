@@ -13,8 +13,8 @@ hair = 'Brown'
 
 
 print "Let's talk about %s." % name
-print "He's %d inches tall." % height_in_cm
-print "He's %d pinds heavy." % weight_in_kg
+print "He's %d centimeters tall." % height_in_cm
+print "He's %d kilograms heavy." % weight_in_kg
 print "Actually that's not too heavy."
 print "He's got %s eyes and %s hair." % (eyes, hair)
 print "His teeth are usally %s depending on the coffee." %teeth
