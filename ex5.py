@@ -10,7 +10,7 @@ weight_in_kg = weight_in_lbs * 0.453592 # kg
 eyes = 'Blue'
 teeth = 'White'
 hair = 'Brown'
-no_matter_what = "Print this no matter what"
+no_matter_what = "no matter what"
 
 print "Let's talk about %s." % name
 print "He's %d centimeters tall." % height_in_cm
@@ -27,4 +27,4 @@ print "If I add %d, %d, and %d I get get %d." % (
 # Try more format characters. %r is a very useful one.
 # It's like saying "print this no matter what."
 
-print %r %no_matter_what
+print "Print this %r" % no_matter_what
