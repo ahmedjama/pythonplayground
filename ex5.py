@@ -11,7 +11,8 @@ eyes = 'Blue'
 teeth = 'White'
 hair = 'Brown'
 no_matter_what = "no matter what"
-hexi = 8
+my_floating_number = 82.56
+my_rounded_floating_number = round(my_floating_number)
 
 print "Let's talk about %s." % name
 print "He's %u centimeters tall." % height_in_cm # Changed format symbol to %u
@@ -30,4 +31,4 @@ print "If I add %d, %d, and %d I get get %d." % (
 
 print "Print this %r" % no_matter_what
 
-print "The number 8 in hexidecimal is %x", % hexi
+print "%d rounded in with the round() function is" % my_rounded_floating_number
