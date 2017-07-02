@@ -30,4 +30,4 @@ print "If I add %d, %d, and %d I get get %d." % (
 
 print "Print this %r" % no_matter_what
 
-print "The number 8 in hexidecimal is %X", % hexi
+print "The number 8 in hexidecimal is %x", % hexi
