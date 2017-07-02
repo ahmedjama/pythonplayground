@@ -1,21 +1,25 @@
+#!/usr/bin/python
 # Exercise 5: More Variables and Printing
 
-my_name = 'Zed A. Shaw'
-my_age = 35 # not a lie
-my_height = 74 # inches
-my_weight = 180 # lbs
-my_eyes = 'Blue'
-my_teeth = 'White'
-my_hair = 'Brown'
+name = 'Zed A. Shaw'
+age = 35 # not a lie
+height_in_inches = 74 # inches
+height_in_cm = height_in_inches * 2.54 # cm
+weight_in_lbs = 180 # lbs
+weight_in_kg = weight_in_lbs * 0.453592 # kg
+eyes = 'Blue'
+teeth = 'White'
+hair = 'Brown'
 
-print "Let's talk about %s." % my_name
-print "He's %d inches tall." % my_height
-print "He's %d pinds heavy." % my_weight
+
+print "Let's talk about %s." % name
+print "He's %d inches tall." % height_in_cm
+print "He's %d pinds heavy." % weight_in_kg
 print "Actually that's not too heavy."
-print "He's got %s eyes and %s hair." % (my_eyes, my_hair)
-print "His teeth are usally %s depending on the coffee." %my_teeth
+print "He's got %s eyes and %s hair." % (eyes, hair)
+print "His teeth are usally %s depending on the coffee." %teeth
 
 # this line is tricky, try to get it exactly right
 print "If I add %d, %d, and %d I get get %d." % (
-    my_age, my_height, my_weight, my_age + my_height + my_weight
+    age, height_in_cm, weight_in_kg, age + height_in_cm + weight_in_kg
 )
