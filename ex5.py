@@ -31,4 +31,5 @@ print "If I add %d, %d, and %d I get get %d." % (
 
 print "Print this %r" % no_matter_what
 
-print "%d rounded in with the round() function is" % my_rounded_floating_number
+print "%f rounded in with the round() function is %d" % ( 
+    my_floating_number, my_rounded_floating_number)
