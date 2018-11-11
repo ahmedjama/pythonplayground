@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # Additional information in relation to this python script can be found
 # at https://learnpythonthehardway.org/book/ex3.html
 # This version has been changed to use floating point numbers

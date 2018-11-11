@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # Exercise 4: Variables And Names
 
 cars = 100

@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # Exercise 8: Printing, Printing
 
 formatter = "{} {} {} {}"

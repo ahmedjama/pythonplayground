@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # Exercise 6: Strings and Text
 
 types_of_people = 10

@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # Excercise 7: More printing
 
 print("Mary had a little lamb.")

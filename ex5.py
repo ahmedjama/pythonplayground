@@ -1,4 +1,5 @@
-#!/usr/bin/python
+#!/usr/bin/env python
+
 # Exercise 5: More Variables and Printing
 
 name = 'Zed A. Shaw'
