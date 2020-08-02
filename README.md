@@ -1,2 +1,2 @@
 # pythonplayground
-Random pythonscripts
+Random python scripts
